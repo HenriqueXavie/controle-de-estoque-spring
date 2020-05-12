@@ -1,4 +1,4 @@
-package com.controle.controledegastos.exceptions;
+package com.controle.controledegastos.services.exceptions;
 
 public class ObjectNotFoundException extends RuntimeException {
     private static final long serialVersionUID = 1L;

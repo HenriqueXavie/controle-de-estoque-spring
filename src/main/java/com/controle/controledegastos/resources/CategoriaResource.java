@@ -15,8 +15,6 @@ import java.util.List;
 @RequestMapping(value = "/categorias")
 public class CategoriaResource {
 
-//    .saveAll(Arrays.asList(cat1, cat2));
-
     @Autowired
     private CategoriaService service;
 
