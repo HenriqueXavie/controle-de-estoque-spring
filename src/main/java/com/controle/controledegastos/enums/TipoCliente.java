@@ -1,4 +1,4 @@
-package com.controle.controledegastos.domain;
+package com.controle.controledegastos.enums;
 
 public enum TipoCliente {
 
