@@ -1,9 +1,7 @@
 package com.controle.controledegastos.domain;
 
 import com.controle.controledegastos.enums.EstadoPagamento;
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.sun.javafx.beans.IDProperty;
 
 import javax.persistence.*;
 import java.io.Serializable;

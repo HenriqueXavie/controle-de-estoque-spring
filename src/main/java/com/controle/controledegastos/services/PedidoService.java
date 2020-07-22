@@ -2,7 +2,6 @@ package com.controle.controledegastos.services;
 
 import com.controle.controledegastos.domain.Categoria;
 import com.controle.controledegastos.domain.Pedido;
-import com.controle.controledegastos.repositories.CategoriaRepository;
 import com.controle.controledegastos.repositories.PedidoRepository;
 import com.controle.controledegastos.services.exceptions.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
