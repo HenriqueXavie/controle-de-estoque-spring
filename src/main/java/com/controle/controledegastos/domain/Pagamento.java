@@ -2,6 +2,7 @@ package com.controle.controledegastos.domain;
 
 import com.controle.controledegastos.enums.EstadoPagamento;
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.sun.javafx.beans.IDProperty;
 
 import javax.persistence.*;
@@ -17,7 +18,7 @@ public abstract class Pagamento  implements Serializable {
     private Integer id;
     private Integer estadoPagamento;
 
-    @JsonBackReference
+    @JsonIgnore
     @OneToOne
     @JoinColumn(name = "pedido_id")
     @MapsId
